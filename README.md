@@ -21,6 +21,11 @@ The data taken from Kaggle includes multiple columns about the diamonds.
 ### Target variable:
 * price - Price of the given Diamond.
 
+## Approach
+The classical machine learning tasks like Data Exploration, Data Cleaning, 
+ Model Building and Model Testing. Try out different machine 
+learning algorithms that’s best fit for the above case. 
+
 ## Data Cleaning
 * Remove Duplicates - Identified and removed duplicate records to ensure each 
 entry in the dataset is unique, preventing redundancy and maintaining data 
@@ -33,3 +38,18 @@ appropriately, enhancing the reliability of our dataset.
 * Data Scaling - To normalize data and ensure consistent feature contribution, we implement scaling techniques StandardScaler. This step 
 transforms data into a uniform range, improving model performance and convergence.
 
+## Data Visualization
+Ploted multiple charts like( Boxplot,Histogram,Linechart,Barchart ).
+
+## Model Selection
+Made many Models But selected RandomForest Regressor.
+
+## Hyperparameter Optimization
+Used hyperparameter with different different model for training the model.
+
+## Model Dump
+Used joblib to dump the selected model.
+
+## Model Accuracy
+97.7%
+### THANKS !!!
